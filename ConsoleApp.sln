@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF_FluentAPI", "EF_FluentAP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async_Await", "Async_Await\Async_Await.csproj", "{A3C5E5E7-C653-49B8-AA8D-5A742FCD48A9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSeeding", "DataSeeding\DataSeeding.csproj", "{83E674E9-DCE4-4787-8582-B3F09E23DBB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{A3C5E5E7-C653-49B8-AA8D-5A742FCD48A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3C5E5E7-C653-49B8-AA8D-5A742FCD48A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3C5E5E7-C653-49B8-AA8D-5A742FCD48A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E674E9-DCE4-4787-8582-B3F09E23DBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E674E9-DCE4-4787-8582-B3F09E23DBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E674E9-DCE4-4787-8582-B3F09E23DBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E674E9-DCE4-4787-8582-B3F09E23DBB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
