@@ -5,7 +5,7 @@
         static void Main()
         {
 
-            EmailService emailservice = new EmailService();
+            IEmailService emailservice = new EmailService();
 
             UserService userservice = new UserService(emailservice);
 
