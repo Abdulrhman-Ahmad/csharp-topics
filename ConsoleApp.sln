@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSeeding", "DataSeeding\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User_Secrets", "User_Secrets\User_Secrets.csproj", "{E475B15D-758E-4AF4-8A71-12E52CF43FE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{B7E20BC7-F4B7-4DBF-ACDF-BAF7E7DC7AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{B7E20BC7-F4B7-4DBF-ACDF-BAF7E7DC7AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemSolving", "ProblemSolving\ProblemSolving.csproj", "{AB80EEA8-160C-48AD-8DAF-5229B5DFC3A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{B7E20BC7-F4B7-4DBF-ACDF-BAF7E7DC7AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7E20BC7-F4B7-4DBF-ACDF-BAF7E7DC7AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7E20BC7-F4B7-4DBF-ACDF-BAF7E7DC7AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB80EEA8-160C-48AD-8DAF-5229B5DFC3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB80EEA8-160C-48AD-8DAF-5229B5DFC3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB80EEA8-160C-48AD-8DAF-5229B5DFC3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB80EEA8-160C-48AD-8DAF-5229B5DFC3A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
