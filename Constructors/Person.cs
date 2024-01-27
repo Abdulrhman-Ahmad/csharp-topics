@@ -45,6 +45,8 @@ namespace Constructors
         // Default Constructor 
         public Person() : this(0, "N/A") { }
 
+
+
         // Parameterized Constructor
         public Person(int id, string name)
         {
@@ -52,13 +54,21 @@ namespace Constructors
             this._name = name;
         }
 
+        public Person(int id) : this(id, "N/A") { }
+        
+        public Person(string name) : this (0, name) { }
+
+
+
+
         // Deep Copy Constructor
         public Person(Person person) : this(person._id, person._name) { }
 
+
         // Shallow Copy Method
-        public Person clone()
+        public object Clone()
         {
-            return this;
+            return this.MemberwiseClone();      // MemberwiseClone => returns a new object that is the same copy of an existing object by copying the values of its individual fields or properties
         }
 
         #endregion
