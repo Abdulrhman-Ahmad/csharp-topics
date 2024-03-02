@@ -18,7 +18,7 @@
  *          - dotnet user-secrets init
  *      
  *      - Set a Secret
- *          - dotnet user-secrets set "SecretName" "SecretValue"
+ *          - dotnet user-secrets set [SecretName] [SecretValue]
  *          
  *      - Show All Secrets
  *          - dotnet user-secrets list 
