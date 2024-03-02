@@ -73,7 +73,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Miscellaneous", "Miscellane
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4_Extension & Dependency Injection", "4_Extension & Dependency Injection", "{56768E0D-FAAB-4AD8-B006-31EC96301A57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{79B4371A-8D17-4D58-AFCC-FFD60269AEB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{79B4371A-8D17-4D58-AFCC-FFD60269AEB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpDownCasting", "UpDownCasting\UpDownCasting.csproj", "{219D645E-3908-4195-B275-FF451A63011B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +203,10 @@ Global
 		{79B4371A-8D17-4D58-AFCC-FFD60269AEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79B4371A-8D17-4D58-AFCC-FFD60269AEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79B4371A-8D17-4D58-AFCC-FFD60269AEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219D645E-3908-4195-B275-FF451A63011B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219D645E-3908-4195-B275-FF451A63011B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219D645E-3908-4195-B275-FF451A63011B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219D645E-3908-4195-B275-FF451A63011B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -236,6 +242,7 @@ Global
 		{081FE6BF-E3D3-4400-B15F-7C7EE9A3459D} = {3D64C8F9-1E03-4BA8-9D02-E8DFAE73A7A5}
 		{F7FD7967-6C6F-4B4A-92B4-770ED7BA9F1B} = {3D64C8F9-1E03-4BA8-9D02-E8DFAE73A7A5}
 		{79B4371A-8D17-4D58-AFCC-FFD60269AEB3} = {3D64C8F9-1E03-4BA8-9D02-E8DFAE73A7A5}
+		{219D645E-3908-4195-B275-FF451A63011B} = {4EC8E6E6-0DC8-4B03-BC77-4C1C99CF921E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41E2D1A2-79F4-433A-9647-BB2AEA403E99}
