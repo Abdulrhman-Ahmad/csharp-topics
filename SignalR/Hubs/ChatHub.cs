@@ -1,31 +1,27 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 
-namespace Server.Hubs
+namespace Signal.Hubs
 {
     public class ChatHub : Hub
     {
         #region Override Methods
-        // When User Connect
         public override async Task OnConnectedAsync()
         {
-            await Clients.All.SendAsync("ReceiveMessage", Context.ConnectionId, "Has Joined!");
+            await this.Clients.All.SendAsync("Receive", Context.ConnectionId, "joined!");
             await base.OnConnectedAsync();
         }
-
-        // When User Disconnect
-        public override async Task OnDisconnectedAsync(Exception exception)
+        public override async Task OnDisconnectedAsync(Exception ex)
         {
-            await Clients.All.SendAsync("ReceiveMessage", Context.ConnectionId, "Has Left!");
-            await base.OnDisconnectedAsync(exception);
+            await this.Clients.All.SendAsync("Receive", Context.ConnectionId, "Left!");
+            await base.OnDisconnectedAsync(ex);
         }
         #endregion
 
         #region Methods
-        // When Sending a message 
         public async Task SendMessage(string user, string message)
         {
-            await Clients.All.SendAsync("ReceiveMessage", user, message);
-        } 
+            await this.Clients.All.SendAsync("Receive", user, message);
+        }
         #endregion
     }
 }
